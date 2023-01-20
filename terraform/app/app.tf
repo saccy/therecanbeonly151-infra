@@ -1,7 +1,7 @@
 provider "digitalocean" {}
 
 # Create the app platform
-resource "digitalocean_app" "hypertask-app" {
+resource "digitalocean_app" "tcbo151" {
   spec {
     name   = var.app.name
     region = var.app.region
